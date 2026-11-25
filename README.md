@@ -3,7 +3,7 @@
 Analyse statistique du jeu de données **Wine Quality** (vins rouges portugais « Vinho Verde ») avec Python.
 L'objectif est de comprendre quelles caractéristiques physico-chimiques sont liées à la note de qualité d'un vin.
 
-**Outils :** Python, pandas, NumPy, Matplotlib, Seaborn, SciPy, scikit-learn, Jupyter
+**Outils :** Python, pandas, NumPy, Matplotlib, Seaborn, SciPy, scikit-learn, Jupyter, Tableau
 
 ## Les données
 
@@ -40,6 +40,13 @@ L'axe F1 oppose les vins acides et denses aux vins à pH élevé ; l'axe F2 est 
 
 ![Projection des vins sur le plan F1-F2](images/projection_vins.png)
 
+## Dashboard interactif (Tableau)
+
+Tableau de bord réalisé avec Tableau Desktop Public Edition : indicateurs clés, distribution des notes,
+alcool moyen par note, facteurs clés par catégorie de qualité et nuage de points alcool / acidité volatile.
+
+**[Voir le dashboard sur Tableau Public](https://public.tableau.com/app/profile/salma.mourad/viz/WineQuality-Quest-cequifaitunbonvin/Dashboard)**
+
 ## Structure du projet
 
 ```
@@ -47,6 +54,7 @@ wine-quality-analysis/
 ├── data/
 │   ├── raw/winequality-red.csv            # données d'origine
 │   └── processed/winequality_cleaned.csv  # données après nettoyage
+├── Dashboard/                             # dashboard Tableau (.twbx)
 ├── images/                                # graphiques utilisés dans ce README
 ├── notebooks/                             # les 5 étapes de l'analyse
 ├── requirements.txt
@@ -56,7 +64,7 @@ wine-quality-analysis/
 ## Lancer le projet
 
 ```bash
-git clone https://github.com/<votre-compte>/wine-quality-analysis.git
+git clone https://github.com/salma-mourad/wine-quality-analysis.git
 cd wine-quality-analysis
 pip install -r requirements.txt
 jupyter notebook
