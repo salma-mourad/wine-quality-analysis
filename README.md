@@ -45,7 +45,9 @@ L'axe F1 oppose les vins acides et denses aux vins à pH élevé ; l'axe F2 est 
 Tableau de bord réalisé avec Tableau Desktop Public Edition : indicateurs clés, distribution des notes,
 alcool moyen par note, facteurs clés par catégorie de qualité et nuage de points alcool / acidité volatile.
 
-**[Voir le dashboard sur Tableau Public](https://public.tableau.com/app/profile/salma.mourad/viz/WineQuality-Quest-cequifaitunbonvin/Dashboard)**
+**[Voir le dashboard sur Tableau Public](https://public.tableau.com/app/profile/salma.mourad/viz/wine_quality_dashboard/Dashboard)**
+
+![Dashboard.png](images/Dashboard.png)
 
 ## Structure du projet
 
